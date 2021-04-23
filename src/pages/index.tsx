@@ -38,7 +38,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
   return (
     <div className={styles.homepage}>
       <Head>
-        <title>Home | Podcastr</title>
+        <title>Podcastr | Home</title>
       </Head>
       <section className={styles.latestEpisodes}>
         <h2>Últimos lançamentos</h2>
@@ -78,8 +78,9 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 <th></th>
                 <th>Podcast</th>
                 <th>Integrantes</th>
+                <th>Data</th>
                 <th>Duração</th>
-                <th></th>
+                <th>Reproduzir</th>
               </tr>
             </thead>
 
